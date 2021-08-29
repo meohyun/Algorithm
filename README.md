@@ -1,0 +1,2 @@
+# Algorithm
+Resolve Algorithm problem.
