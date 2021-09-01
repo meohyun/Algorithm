@@ -25,3 +25,12 @@
 17
 7
 """
+import sys
+
+running = True
+while running:
+    try:
+        A,B = list(map(int,sys.stdin.readline().split()))
+        print(A+B)
+    except:
+        break
