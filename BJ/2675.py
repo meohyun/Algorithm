@@ -21,13 +21,10 @@
 # AAABBBCCC
 # /////HHHHHTTTTTPPPPP
 
-import sys 
-
-T = int(sys.stdin.readline())
-for i in range(T):
-    
-    R,S = list(map(str,sys.stdin.readline().split()))
-    split_str = [ i for i in S]
-    print(split_str)
-    for j in range(len(split_str)):
-       pass
+t = int(input())
+for i in range(t):
+	r, text = input().split()
+	p = ""
+	for i in text:
+		p = p + (i*int(r))
+	print(p)
