@@ -1,3 +1,6 @@
+# 로또의 최고 순위와 최저 순위
+
+
 import sys
 
 lottos = list(map(int,sys.stdin.readline().split()))
